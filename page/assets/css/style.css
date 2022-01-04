@@ -19,6 +19,7 @@ body {
   width: 100%;
   bottom: 0;
   background-color: #f4fbfe;
+  padding: 0 50px;
 }
 a {
   text-decoration: none;
