@@ -3,6 +3,8 @@ version: '3.8'
 services:
   gatewayy:
     image: nginx:latest
+    ports:
+      - 90:80
     networks:
       - web
       - default
