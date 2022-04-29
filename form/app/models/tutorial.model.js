@@ -3,6 +3,9 @@ module.exports = (sequelize, Sequelize) => {
     email: {
       type: Sequelize.STRING
     },
+    type: {
+      type: Sequelize.STRING
+    },
   });
 
   return Tutorial;

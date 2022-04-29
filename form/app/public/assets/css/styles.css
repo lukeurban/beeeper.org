@@ -1,0 +1,355 @@
+body {
+    font-family: "Comfortaa";
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    margin: 0;
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/waitress.jpg");
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: 20% 23%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.header-market {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("../images/market.jpg");
+    background-position: 50% 23%;
+}
+.header-reception {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/recept.jpg");
+    background-position: 60% 23%;
+}
+
+.header-body {
+    position: absolute;
+    color: white;
+    padding: 30px;
+}
+.logo-image {
+    height: 60px;
+    margin: 0 30px;
+}
+.texts {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+}
+.heder-subtext {
+    font-size: 20px;
+}
+.heder-text {
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.button {
+    background-color: #06aace;
+    padding: 20px 30px;
+    color: white;
+    display: block;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 250px;
+    text-align: center;
+}
+.ballsack {
+    position: relative;
+    height: 450px;
+}
+
+.ball {
+    width: 260px;
+    height: 260px;
+    border-radius: 130px;
+    background-color: #06aace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px 65px;
+}
+.big {
+    width: 380px;
+    height: 380px;
+    border-radius: 200px;
+    transform: translate(-35%, 0);
+    background-color: #0895b5;
+}
+.ball-wrapper-medium {
+    position: absolute;
+    top: -70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ball-wrapper-small {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ball-wrapper-big {
+    position: absolute;
+    top: -100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.medium {
+    width: 330px;
+    height: 330px;
+    border-radius: 170px;
+    transform: translate(50%, 0);
+    background-color: #40ceed;
+}
+.ball-body {
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+.ball-header {
+    font-size: 18px;
+    text-align: center;
+}
+.small {
+    transform: translate(-30%, 0);
+}
+.small-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-bottom: 55px;
+    transform: translate(-60%, 0);
+    color: #8b8b8b;
+}
+.blue {
+    width: 100%;
+    min-height: 200px;
+    background-color: #06aace;
+}
+.how-to-header {
+    color: white;
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+}
+.hows {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.how {
+    display: flex;
+    margin: 0 20px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    max-width: 200px;
+}
+.how-chip {
+    background-color: white;
+    height: 70px;
+    width: 200px;
+    border-radius: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.how-header {
+    color: white;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.how-body {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+.how-chip img {
+    height: 50px;
+}
+
+.prices-header {
+    width: 100%;
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    color: #8b8b8b;
+}
+
+.prices {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.price {
+    width: 250px;
+    height: 200px;
+    margin: 0 20px;
+    border-radius: 20px;
+    border: 1px solid #8b8b8b20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    -webkit-box-shadow: 0px 0px 100px -7px rgba(142, 142, 142, 0.17);
+    -moz-box-shadow: 0px 0px 100px -7px rgba(142, 142, 142, 0.17);
+    box-shadow: 0px 0px 100px -7px rgba(142, 142, 142, 0.17);
+}
+.price-header,
+.price-footer {
+    color: #8b8b8b;
+}
+.price-price {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form form {
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 4px;
+    text-align: left;
+}
+.form form input[type="email"] {
+    border: 0;
+    padding: 17px 25px;
+    width: 450px;
+    border-radius: 100px;
+}
+.form form input[type="submit"] {
+    position: absolute;
+    top: 15px;
+    height: 40px;
+    bottom: 0;
+    border-radius: 40px;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 10px 25px;
+    background: #06aace;
+    color: #fff;
+    transition: 0.3s;
+    transform: translate(-115%, 0);
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+.form form input[type="submit"]:hover {
+    background: #1da2e0;
+}
+
+.demo-text {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+}
+.demo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+.copyright {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+@media (max-width: 1023.9px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
+    body {
+        position: relative;
+    }
+    .header {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.4)), url("../images/waitress.jpg");
+    }
+    .header-market {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.4)), url("../images/market.jpg");
+    }
+    .header-reception {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.4)), url("../images/recept.jpg");
+    }
+    .ball-wrapper-medium {
+        top: 300px;
+        transform: translate(0, 0);
+    }
+    .ball-wrapper-big {
+        top: 10px;
+        transform: translate(0, 0);
+    }
+
+    .ball-wrapper-small {
+        top: 570px;
+        transform: translate(0, 0);
+    }
+    .ballsack {
+        width: 100vw;
+        overflow: hidden;
+        height: 850px;
+    }
+    .header {
+        height: 90vh;
+    }
+    .hows,
+    .prices,
+    .demo {
+        flex-direction: column;
+        align-items: center;
+    }
+    .texts {
+        height: 70vh;
+        margin: 0;
+    }
+    .logo-image {
+        margin: 0;
+    }
+    .big {
+        transform: translate(-10%, 0);
+    }
+    .medium {
+        transform: translate(30%, 0);
+    }
+    .small {
+        transform: translate(0, 0);
+    }
+    .small-text {
+        display: none;
+    }
+    .how {
+        margin-bottom: 40px;
+    }
+    .demo-text {
+        margin-bottom: 40px;
+    }
+    .form form input[type="email"] {
+        width: 80vw;
+    }
+    .button {
+        width: auto;
+    }
+}

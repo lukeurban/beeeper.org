@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    <title>beeper</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: "Comfortaa";
+            /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./assets/images/bg.jpeg");
+
+            /* Position and center the image to scale nicely on all screens */
+            background-position: 20% 23%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+
+        }
+
+        .ball {
+            width: 400px;
+            height: 400px;
+            background-color: #06aace;
+            border-radius: 400px;
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            padding: 30px;
+            position: relative;
+        }
+
+        .back {
+            width: 150px;
+            height: 150px;
+            background-color: #056a80;
+            border-radius: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            bottom: -10px;
+            right: -10px;
+            cursor: pointer;
+        }
+
+        a,
+        a:hover,
+        a:focus,
+        a:active {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ball">
+        <h2>Dziękujemy! 🎉</h2>
+        <h3>Skontaktujemy się z Tobą<br> jak szybko to możliwe!</h3>
+        <a href="https://beeeper.org">
+            <div class="back">⬅WRÓĆ </div>
+        </a>
+    </div>
+</body>
+
+</html>

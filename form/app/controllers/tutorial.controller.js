@@ -15,6 +15,7 @@ exports.create = (req, res) => {
   // Create a Tutorial
   const tutorial = {
     email: req.body.email,
+    type: req.body.type ?? 'gastro',
   };
 
   // Save Tutorial in the database
